@@ -41,9 +41,9 @@
     Background.prototype.toString = function () {
         var list = [
             this.image,
-            this.position + ' / ' + this.size,
             this.repeat,
             this.attachment,
+            this.position + ' / ' + this.size,
             this.origin,
             this.clip
         ];
