@@ -63,6 +63,10 @@
         var parens = 0;
         var buffer = '';
 
+        if (cssText == null) {
+            return images;
+        }
+
         while (cssText.length) {
             var match = tokens.exec(cssText);
             if (!match) {
@@ -104,11 +108,15 @@
     }
 
     function parseSimpleList(cssText) {
-        return cssText.split(',').map(trim);
+        return (cssText || '').split(',').map(trim);
     }
 
     exports.parseElementStyle = function (styleObject) {
         var list = new BackgroundList();
+        if (styleObject == null) {
+            return list;
+        }
+
         var bgImage = parseImages(styleObject.backgroundImage);
         var bgColor = styleObject.backgroundColor;
         var bgAttachment = parseSimpleList(styleObject.backgroundAttachment);
