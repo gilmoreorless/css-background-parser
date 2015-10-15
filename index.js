@@ -57,10 +57,6 @@
     exports.Background = Background;
 
 
-    exports.stringify = function (BackgroundOrBackgroundList) {
-        return BackgroundOrBackgroundList.toString();
-    };
-
     function parseImages(cssText) {
         var images = [];
         var tokens = /[,\(\)]/;
@@ -83,8 +79,8 @@
                     }
                     break;
                 case '(':
-                   parens++;
-                   break;
+                    parens++;
+                    break;
                 case ')':
                     parens--;
                     break;

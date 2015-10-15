@@ -1,9 +1,9 @@
 CSS Background Parser
 =====================
 
-Parse CSS background properties to get a list of individual backgrounds.
+Parse an element’s CSS background properties to get a list of individual backgrounds.
 
-_This library is still a work in progress and is probably not very useful yet._
+_This library is still a work in progress and is probably not very useful yet. It’s pre-1.0 and has no tests yet._
 
 * Methods
     * [parseElementStyle()][parseElementStyle]
