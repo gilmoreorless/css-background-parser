@@ -153,6 +153,6 @@
 })((function (root) {
     // CommonJS
     if (typeof module !== 'undefined' && module.exports !== undefined) return module.exports;
-    // Global `cssAnimProps`
+    // Global `cssBgParser`
     return (root.cssBgParser = {});
 })(this));
