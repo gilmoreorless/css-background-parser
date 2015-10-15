@@ -146,4 +146,4 @@ A `BackgroundList` can be instantiated with an optional first parameter, which i
 [BackgroundList]: #BackgroundList
 
 [CSSBackgroundSpec]: http://www.w3.org/TR/css3-background/#backgrounds
-[CSSStyleDeclaration]: http://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration
+[CSSStyleDeclaration]: https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration
