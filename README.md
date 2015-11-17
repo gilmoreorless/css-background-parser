@@ -141,7 +141,7 @@ A `BackgroundList` can be instantiated with an optional first parameter, which i
 
 
 
-[parseElementStyle]: #Background
+[parseElementStyle]: #parseElementStyle
 [Background]: #Background
 [BackgroundList]: #BackgroundList
 
